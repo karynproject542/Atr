@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KARYNPROJECT | Showcase</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body, html {
+      height: 100%;
+      overflow-y: auto;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+    }
+
+    video.bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+      opacity: 0.15;
+    }
+
+    .image-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      opacity: 0.1;
+      z-index: -1;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1em;
+      line-height: 1.6;
+    }
+
+    .section {
+      background-color: rgba(0, 0, 0, 0.8);
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .emoji {
+      font-size: 1.3em;
+      margin-right: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video autoplay loop muted playsinline class="bg-video">
+    <source src="https://cdn.pixabay.com/vimeo/884858904/hack-188792.mp4?width=640&hash=0b9f7b519b9616c820fcb5b184857ec5f86c681c" type="video/mp4" />
+  </video>
+
+  <!-- Background Image Overlay -->
+  <div class="image-overlay"></div>
+
+  <div class="container">
+    <h1>🚀 KARYNPROJECT</h1>
+    <p style="text-align:center; font-style: italic;">Inovasi, Eksperimen, dan Teknologi Lokal</p>
+
+    <div class="section">
+      <h2>📌 Apa itu Karynproject?</h2>
+      <p><strong>Karynproject</strong> adalah proyek personal digital dari <strong>ATR</strong>. Ini adalah arena eksperimen HTML, hacking UI, AI offline, hingga simulasi tools yang sepenuhnya dibuat lokal, ringan, dan penuh fitur. Cocok untuk eksplorasi, belajar, dan pengembangan mandiri.</p>
+    </div>
+
+    <div class="section">
+      <h2>🛠️ Proyek yang Sudah Dibuat</h2>
+      <ul>
+        <li>✅ Terminal Hacker dengan AI Assistant lokal</li>
+        <li>✅ WhatsApp Clone full fitur & Bot Azzbo</li>
+        <li>✅ Folder UI ZArchiver-style untuk payload & tools</li>
+        <li>✅ Simulasi enkripsi, IP scan, localStorage</li>
+        <li>✅ Tanpa internet, semua berbasis offline-ready</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>👨‍💻 Tentang Developer</h2>
+      <p>Dibuat oleh <strong>ATR</strong>, seorang kreator dengan passion tinggi di bidang antarmuka cyber, hacking tools, dan edukasi teknologi. Proyek ini adalah refleksi eksplorasi dan komitmen ATR untuk membangun sistem mandiri tanpa server eksternal.</p>
+    </div>
+
+    <div class="section">
+      <h2>📁 Catatan Tambahan</h2>
+      <ul>
+        <li>🔒 Local-first project, semua data disimpan di localStorage</li>
+        <li>🔑 Tidak butuh API kunci eksternal</li>
+        <li>⚡ Bisa dibuka di HP, ringan, tanpa install</li>
+        <li>🌐 Upload ke Netlify / GitHub Pages langsung jalan</li>
+      </ul>
+    </div>
+
+    <footer>
+      &copy; 2025 KARYNPROJECT · Made with ❤️ by ATR
+    </footer>
+  </div>
+
+</body>
+</html>
